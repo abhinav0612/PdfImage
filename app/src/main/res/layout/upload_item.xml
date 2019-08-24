@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="12dp"
+    android:id="@+id/coordinatorLayout"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@color/colorAccent"
+        android:id="@+id/upload_image_recycler"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:padding="5dp"
+        android:background="#000"
+        android:textColor="#FFF"
+        android:gravity="left"
+        android:layout_gravity="bottom"
+        android:id="@+id/upload_image_index"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
